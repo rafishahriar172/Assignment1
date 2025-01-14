@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  nav{
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  nav ul li a:hover {
+    background-color: #ccc;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  #hero {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .skill {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  

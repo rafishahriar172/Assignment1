@@ -1,65 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Resume</title>
-  </head>
-  <body>
-    <table>
-      <tr>
-        <td>
-          <h1>C.M Rafi Shahriar</h1>
-          <p>Email: cm.rafi.shahriar@gmail.com</p>
-          <p>Phone: (+88) 01794805252</p>
-        </td>
-        <td>
-          <img
-            src="https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/448882603_7726263617422038_4952725189124414640_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFemRMh0BBlV8MYXvZoLoV9hLIUEVQMmueEshQRVAya5-8nk8X0wmeSxcbLalg3Px51FG7HUuu9BryZyzJWxXcy&_nc_ohc=jvxPJOOcAzUQ7kNvgE3OIw4&_nc_zt=23&_nc_ht=scontent.fdac14-1.fna&_nc_gid=AZo2xem3LSyaEh8TUxPUCIz&oh=00_AYDJ8mHIFXiDQYjavcyB16L530ZLVGWxPuw7TarcDN9Ygg&oe=6781DEE6"
-            alt="User Photo"
-            style="width: 150px; height: 150px"
-          />
-        </td>
-      </tr>
-    </table>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 
-    <h2>Summary</h2>
-        <p>Software Developer at Edusoft Consultant Ltd</p>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+      <ul>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
     
-    <h2>Experience</h2>
-    <table>
-      <tr>
-        <td>
-            <p><b>Jr Software Developer | Edusoft Consultant Ltd</b></p>
-            <p>2023-2024</p>
-            <p>Worked on Front end of Various ERP projects</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-            <p><b>Jr Software Developer | Edusoft Consultant Ltd</b></p>
-            <p>2024-Current</p>
-            <p>Using ASP.NET and ASP.NET Core Worked on Various ERP Project</p>
-        </td>
-      </tr>
-    </table>
 
-    <h2>Education</h2>
-    <table>
-      <tr>
-        <td>
-          <p><strong>BSc in Computer Science and Engineering</strong></p>
-          <p>United International University</p>
-          <p>2023</p>
-        </td>
-      </tr>
-    </table>
+    <!-- Hero Section -->
+    <section id="hero">
+      <img src="https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg" alt="Profile Picture">
+      <h1>Hello, I'm Rafi</h1>
+      <p>Welcome to my portfolio website!</p>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skill">
+        <img src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5.png" alt="HTML" width="50" height="50">
+        <p>HTML</p>
+      </div>
+      <div class="skill">
+        <img src="https://e7.pngegg.com/pngimages/603/759/png-clipart-css3-cascading-style-sheets-logo-html-world-wide-web-blue-angle-thumbnail.png" alt="CSS" width="50" height="50">
+        <p>CSS</p>
+      </div>
+      <div class="skill">
+        <img src="https://e7.pngegg.com/pngimages/87/538/png-clipart-javascript-scalable-graphics-logo-encapsulated-postscript-javascript-icon-text-logo-thumbnail.png" alt="JavaScript" width="50" height="50">
+        <p>JavaScript</p>
+      </div>
+      <div class="skill">
+        <img src="https://w7.pngwing.com/pngs/452/495/png-transparent-react-javascript-angularjs-ionic-github-text-logo-symmetry-thumbnail.png" alt="React.js" width="50" height="50">
+        <p>React.js</p>
+      </div>
+    </section>
+    
 
-    <h2>Skills</h2>
-    <ul>
-      <li>ASP.NET</li>
-      <li>ASP.NET Core</li>
-      <li>Next JS</li>
-      <li>Nest JS</li>
-    </ul>
-  </body>
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Here are some of my recent projects that showcase my skills and experience.</p>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+        <a href="https://github.com/your-username/project1" target="_blank">Code</a>
+        <a href="https://your-project-demo.com/project1" target="_blank">Demo</a>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+        <a href="https://github.com/your-username/project2" target="_blank">Code</a>
+        <a href="https://your-project-demo.com/project2" target="_blank">Demo</a>
+      </div>
+      <div class="project">
+        <h3>Project 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
+        <a href="https://github.com/your-username/project3" target="_blank">Code</a>
+        <a href="https://your-project-demo.com/project3" target="_blank">Demo</a>
+      </div>
+    </section>
+    
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2025 Rafi. All rights reserved.</p>
+    </footer>
+    
+</body>
 </html>
